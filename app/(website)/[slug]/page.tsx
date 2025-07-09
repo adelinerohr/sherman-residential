@@ -11,7 +11,6 @@ import { PayloadRedirects } from "@/components/helpers/payload-redirects";
 import { RenderHero } from "~/heros/render-hero";
 import { RenderBlocks } from "~/blocks/render-blocks";
 import { Communities } from "@/payload/blocks/communities/component";
-import { TeamMembers } from "@/payload/blocks/team-members/component";
 
 export async function generateStaticParams() {
   const payload = await getPayload({ config: configPromise });

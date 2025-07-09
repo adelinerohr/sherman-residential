@@ -6,7 +6,6 @@ import {
   SerializedHeadingNode,
   SerializedLinkNode,
   SerializedListItemNode,
-  SerializedListNode,
   SerializedParagraphNode,
   type DefaultTypedEditorState,
 } from "@payloadcms/richtext-lexical";

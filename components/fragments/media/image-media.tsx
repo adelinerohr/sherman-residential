@@ -7,7 +7,6 @@ import React from "react";
 
 import type { Props as MediaProps } from "./index";
 
-import { getMediaUrl } from "~/utilities/get-media-url";
 import { cn } from "@/lib/utils";
 import { cssVariables } from "@/app/(website)/css-variables";
 
@@ -68,8 +67,6 @@ export const ImageMedia: React.FC<MediaProps> = (props) => {
           "https://8uigv4wggcfgnln3.public.blob.vercel-storage.com";
         src = `${blobUrl}/${filename}`;
       }
-
-      const cacheTag = resource.updatedAt;
     }
   }
 

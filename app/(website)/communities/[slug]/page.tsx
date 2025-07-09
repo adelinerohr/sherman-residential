@@ -6,7 +6,6 @@ import { PayloadRedirects } from "@/components/helpers/payload-redirects";
 import { LivePreviewListener } from "@/components/helpers/live-preview-listener";
 import { StateCode, StateCodeKey } from "@/payload/custom-types";
 import { LocationTag } from "@/components/fragments/location-tag";
-import { StatsBlock } from "@/payload/blocks/stats/component";
 import { CommunityFeaturesStats } from "@/components/sections/community-features-stats";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";

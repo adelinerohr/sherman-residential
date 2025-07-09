@@ -1,8 +1,4 @@
-import {
-  Button,
-  buttonVariants,
-  type ButtonProps,
-} from "@/components/ui/button";
+import { buttonVariants, type ButtonProps } from "@/components/ui/button";
 import { cn } from "~/utilities/ui";
 import Link from "next/link";
 import React from "react";
