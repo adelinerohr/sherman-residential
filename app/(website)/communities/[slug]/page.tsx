@@ -100,7 +100,7 @@ export default async function CommunityPage({
             className={buttonVariants({ variant: "default" })}
             href={community.websiteUrl}
           >
-            Visit the Property's Website
+            Visit the Property&apos;s Website
           </Link>
         </div>
       </div>
